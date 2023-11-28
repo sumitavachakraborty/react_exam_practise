@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: #d1d1e9;
+}
+
+
+.card {
+  padding: 2em;
+  width: 20%;
+  cursor: pointer;
+}
+
+.pokemon__box{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card:hover{
+  margin: -4px;
+
+}
